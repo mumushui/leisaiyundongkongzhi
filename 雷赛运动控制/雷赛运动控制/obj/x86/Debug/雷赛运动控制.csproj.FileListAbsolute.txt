@@ -6,3 +6,11 @@ C:\Users\12C311\Desktop\qibin\雷赛运动控制\雷赛运动控制\雷赛运动
 C:\Users\12C311\Desktop\qibin\雷赛运动控制\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.csproj.GenerateResource.Cache
 C:\Users\12C311\Desktop\qibin\雷赛运动控制\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.exe
 C:\Users\12C311\Desktop\qibin\雷赛运动控制\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.pdb
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.exe
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.pdb
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\bin\Debug\雷赛运动控制.exe
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\bin\Debug\雷赛运动控制.pdb
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.csprojResolveAssemblyReference.cache
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.Form1.resources
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.Properties.Resources.resources
+C:\Users\12C311\Desktop\qibin\雷赛运动控制\leisaiyundongkongzhi\雷赛运动控制\雷赛运动控制\obj\x86\Debug\雷赛运动控制.csproj.GenerateResource.Cache

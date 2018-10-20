@@ -27,7 +27,7 @@ namespace 雷赛运动控制
 
         n = LTDMC.dmc_board_init() ;                 //控制卡的初始化操作，调用后必须使用dmc_board_close关闭卡。
         //中间不可再次调用该初始化函数。
-        LTDMC.dmc_board_reset();
+        
         if (n <= 0)            //正常的卡数在1- 8之间
             {
                 MessageBox.Show("初始化运动控制卡失败,请关闭其他运动控制卡程序");
@@ -40,9 +40,12 @@ namespace 雷赛运动控制
       
         for ( i=0;i<4;i++)
             {  LTDMC.dmc_set_pulse_outmode(CardNo, i, 0) ;    //设定脉冲输出模式
-               
+               LTDMC.dmc_write_sevon_pin(CardNo, i, 0);
+               LTDMC.dmc_set_alm_mode(CardNo, i, 1, 1, 0);
+               LTDMC.dmc_set_pulse_outmode(CardNo, i, 0);  
             }
         
+
 
 
         }
@@ -98,7 +101,7 @@ namespace 雷赛运动控制
                 LTDMC.dmc_set_homemode(CardNo, 3, HomeDir3, 0, 0, 0);
                 LTDMC.dmc_set_profile(CardNo, 0, 500, 1000, 0.1, 0.1, 500);
                 LTDMC.dmc_home_move(CardNo,0);
-                LTDMC.dmc_set_pulse_outmode(CardNo, 0, 0); 
+                
             }
             
             }

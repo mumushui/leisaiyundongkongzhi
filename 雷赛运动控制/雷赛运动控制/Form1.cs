@@ -13,6 +13,7 @@ namespace 雷赛运动控制
     public partial class Form1 : Form
     {
         UInt16 CardNo =0;//定义控制卡卡号
+        UInt16 i;//定义轴数
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +22,7 @@ namespace 雷赛运动控制
         private void Form1_Load(object sender, EventArgs e)
         {
          short n;
-         UInt16 i;//定义轴数
+        
 
 
 
@@ -99,8 +100,11 @@ namespace 雷赛运动控制
                 LTDMC.dmc_set_homemode(CardNo, 0, HomeDir0, 0, 0, 0);
                 LTDMC.dmc_set_homemode(CardNo, 1, HomeDir1, 0, 0, 0 );
                 LTDMC.dmc_set_homemode(CardNo, 3, HomeDir3, 0, 0, 0);
-                LTDMC.dmc_set_profile(CardNo, 0, 500, 1000, 0.1, 0.1, 500);
-                LTDMC.dmc_home_move(CardNo,0);
+                for (i = 0; i < 3; i++)
+                {
+                    LTDMC.dmc_set_profile(CardNo, i, 500, 1000, 0.1, 0.1, 500);
+                    LTDMC.dmc_home_move(CardNo, i);
+                }
                 
             }
             

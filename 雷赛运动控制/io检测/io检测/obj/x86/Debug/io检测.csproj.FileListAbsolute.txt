@@ -1,0 +1,9 @@
+D:\试水\淇彬\vb.net小程序\io检测\io检测\bin\Debug\io检测.exe
+D:\试水\淇彬\vb.net小程序\io检测\io检测\bin\Debug\io检测.pdb
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\io检测.Form1.resources
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\io检测.Properties.Resources.resources
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\io检测.exe
+D:\试水\淇彬\vb.net小程序\io检测\io检测\obj\x86\Debug\io检测.pdb
